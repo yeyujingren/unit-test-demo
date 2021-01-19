@@ -1,0 +1,23 @@
+{
+  "name": "demo_02",
+  "version": "1.0.0",
+  "description": "- 通过babel去解析 ```Shell yarn add --dev babel-jest @babel/core @babel/preset-env ``` - 配置babel ```JavaScript // babel.config.js module.exports = {   presets: [     [       '@babel/preset-env',       {         targets: {           node: 'current',         },       },     ],   ], }; ```",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "yeyu",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
