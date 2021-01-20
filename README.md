@@ -8,4 +8,6 @@
 
 ### 项目目录：
 - demo_require_01: 采用jest默认支持的引包方式的简单demo
-- [demo_import_02](./demo_import_02): 通过配置bable使得jest支持es6的包引入方式的简单demo
+- [demo_import_02](./demo_import_02): 通过配置bable使得jest支持es6的包引入方式的简单demo，包括常见断言以及异步请求断言
+- [demo_ts_03](./demo_ts_03): 配置babel，使得jest支持ts。
+- [demo_react_04](./demo_react_04): jest在react项目中的使用。具体demo分布请在相应README下查看
