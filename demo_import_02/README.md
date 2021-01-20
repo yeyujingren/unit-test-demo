@@ -20,3 +20,7 @@ module.exports = {
   ],
 };
 ```
+
+### demo分布
+- index.js 常见断言demo
+- async.js 异步请求demo
