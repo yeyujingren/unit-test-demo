@@ -22,5 +22,5 @@ module.exports = {
 ```
 
 ### demo分布
-- index.js 常见断言demo
-- async.js 异步请求demo
+- test/index.test 常见断言demo
+- test/async.test 异步请求demo

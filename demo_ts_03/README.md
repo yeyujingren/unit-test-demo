@@ -24,4 +24,4 @@ yarn add --dev @babel/preset-typescript @types/jest
 ```
 
 ### demo分布
-- index.ts jest支持typescript
+- test/index.test jest支持typescript
